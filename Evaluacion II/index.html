@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="contenedor">
+      <h1>Registro de Estudiantes</h1>
+
+      <div class="formulario">
+        <form>
+          <label>Nombre completo: <input type="text" /></label>
+          <label>RUT: <input type="text" /></label>
+          <label>Nota: <input type="number" step="0.1" /></label>
+          <button type="submit">Registrar</button>
+          <!--Mensajes de error-->
+          <p class="error"></p>
+        </form>
+      </div>
+
+      <div class="tabla">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>RUT</th>
+              <th>Nota</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Promedio</td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+        <p><strong>Aprobados:</strong> <span>0</span></p>
+        <p><strong>Reprobados:</strong> <span>0</span></p>
+      </div>
+    </main>
+  </body>
+</html>

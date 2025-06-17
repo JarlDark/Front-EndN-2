@@ -1,0 +1,44 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+    }
+    .formulario, .tabla {
+      margin-bottom: 2em;
+    }
+    .error {
+      color: red;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5em;
+      text-align: center;
+    }
+    tfoot {
+      font-weight: bold;
+    }
+    .rojo {
+      color: red;
+    }
+    .azul {
+      color: blue;
+    }
+    .verde {
+      color: green;
+    }
+    .bg-rojo {
+      background-color: #ffd6d6;
+    }
+    .bg-azul {
+      background-color: #d6eaff;
+    }
+    .bg-verde {
+      background-color: #d6ffd6;
+    }
+    .contenedor {
+      max-width: 80em;
+      margin: auto;
+    }
